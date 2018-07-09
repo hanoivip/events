@@ -1,0 +1,11 @@
+{
+    "name": "hanoivip/events",
+    "type": "library",
+    "license": "MIT",
+    "require": {},
+	"autoload" : {
+		"psr-4" : {
+			"Hanoivip\\Events\\" : "src/"
+		}
+	}
+}

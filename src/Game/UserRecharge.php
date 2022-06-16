@@ -2,6 +2,7 @@
 
 namespace Hanoivip\Events\Game;
 
+// User recharge with money
 class UserRecharge
 {
     public $uid;

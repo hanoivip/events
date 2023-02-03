@@ -8,5 +8,6 @@ class UserCreated
     
     public function __construct($uid)
     {
+        $this->uid = $uid;
     }
 }

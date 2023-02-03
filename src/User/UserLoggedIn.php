@@ -1,8 +1,12 @@
 <?php
 
 namespace Hanoivip\Events\User;
-
-class UserBinded
+/**
+ * 
+ * @author GameOH
+ * @deprecated use Illuminate\Auth\Events instead
+ */
+class UserLoggedIn
 {
     public $uid;
     

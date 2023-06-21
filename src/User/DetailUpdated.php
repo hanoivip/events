@@ -8,5 +8,6 @@ class DetailUpdated
     
     public function __construct($uid)
     {
+        $this->uid = $uid;
     }
 }
